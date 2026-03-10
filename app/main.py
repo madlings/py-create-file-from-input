@@ -17,7 +17,7 @@ def main() -> None:
         with open(filename, "w") as file:
             # Join the list into a single string with newlines
             file.write("\n".join(lines))
-        
+
         # 4. Display the required result format
         print(f"\nResult:\n\nFile created: {filename}")
         print("File content:")
